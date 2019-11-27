@@ -1,0 +1,11 @@
+npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but npm-shrinkwrap.json was generated for lockfileVersion@0. I'll try to do my best with it!
+npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but npm-shrinkwrap.json was generated for lockfileVersion@0. I'll try to do my best with it!
+npm WARN Editor@0.0.1 No description
+npm WARN Editor@0.0.1 No repository field.
+npm WARN Editor@0.0.1 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\@ui5\cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+audited 10344 packages in 5.743s
+found 132 vulnerabilities (7 low, 11 moderate, 114 high)
+  run `npm audit fix` to fix them, or `npm audit` for details

@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/Editor/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/Editor/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}

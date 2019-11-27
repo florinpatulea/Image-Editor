@@ -1,0 +1,23 @@
+ID: ImageEditor
+_schema-version: "2.1"
+version: 0.0.1
+
+modules:
+  - name: Editor
+    type: html5
+    path: Editor
+    parameters:
+      disk-quota: 256M
+      memory: 256M
+    build-parameters:
+      builder: npm
+    requires:
+      - name: uaa_ImageEditor
+
+resources:
+  - name: uaa_ImageEditor
+    parameters:
+      path: ./xs-security.json
+      service-plan: application
+      service: xsuaa
+    type: org.cloudfoundry.managed-service
